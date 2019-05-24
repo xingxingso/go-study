@@ -11,9 +11,11 @@ go build .\1_hello.go
 
 - [golang/tour: [mirror] A Tour of Go](https://github.com/golang/tour)
 
+- [src/strings/reader.go - The Go Programming Language](https://golang.org/src/strings/reader.go)
+
 > 26,
 > 42, 44, 45, 49,
 > 56, 57,
 > 66, 67, 68, 69, 70, 71, 72, 73, 74, 75,
 > 76, 77, 
-> 78,
+> 78, 79, 80,
