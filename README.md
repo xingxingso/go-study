@@ -1,9 +1,9 @@
-
+[TOC]
 
 ```bash
 go build .\1_hello.go
 
-.\1_hello.exe
+.\1_hello
 ```
 
 - [A Tour of Go](https://tour.golang.org/welcome/1)
@@ -14,10 +14,17 @@ go build .\1_hello.go
 - [src/strings/reader.go - The Go Programming Language](https://golang.org/src/strings/reader.go)
 
 > 26,
+
 > 42, 44, 45, 49,
+
 > 56, 57,
+
 > 66, 67, 68, 69, 70, 71, 72, 73, 74, 75,
+
 > 76, 77, 
+
 > 78, 79, 80,
+
 > 82,
+
 > 83, 84, 85, 86, 87, 88, 89, 90
