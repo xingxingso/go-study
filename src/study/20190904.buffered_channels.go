@@ -6,15 +6,13 @@ package main
 import (  
     "fmt"
     "time"
-    "sync"
 )
 
 func main() {
 	// test1_1()
 	// test1_2()
 	// test1_3()
-	// test1_4()
-	test1_5()
+	test1_4()
 }
 
 func test1_1() {  
@@ -61,22 +59,4 @@ func test1_4() {
     fmt.Println("length is", len(ch))
     fmt.Println("read value", <-ch)
     fmt.Println("new length is", len(ch))
-}
-
-// WaitGroup
-func process(i int, wg *sync.WaitGroup) {  
-    fmt.Println("started Goroutine ", i)
-    time.Sleep(2 * time.Second)
-    fmt.Printf("Goroutine %d ended\n", i)
-    wg.Done()
-}
-func test1_5() {  
-    no := 3
-    var wg sync.WaitGroup
-    for i := 0; i < no; i++ {
-        wg.Add(1)
-        go process(i, &wg)
-    }
-    wg.Wait()
-    fmt.Println("All go routines finished executing")
 }
